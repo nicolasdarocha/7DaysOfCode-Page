@@ -1,0 +1,114 @@
+.navbar {
+    width: 1440px;
+    height: 80px;
+    background-color: white;
+}
+
+.header {
+    width: 1280px;
+    min-height: 44px;
+    margin: 18px 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.navbar a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    width: 148px;
+    height: 27px;
+    margin: 26px 0px 26px 112px;
+}
+
+.logo-title { /*rever a aula de css da rocket*/
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0px;
+}
+
+.logo-img {
+    width: 27px;
+    height: 27px;
+}
+
+.submenu {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 12%;
+    width: 363px;
+    height: 33px;
+    color: #667085;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.submenu a {
+    text-decoration: none;
+    color: #667085;
+}
+
+.submenu a:hover {
+    text-decoration: underline;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 208px;
+    height: 45px;
+
+}
+
+.entrar {
+    font-family: Inter;
+    color: #667085;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 10px 8px 10px 18px;
+}
+
+.login a:link {
+    text-decoration: none;
+}
+
+.login a:hover {
+    text-decoration: underline;
+}
+
+.cadastrar {
+    color: white;
+    background-color: #8E2424;
+    border: 1px solid #8E2424;
+    border-radius: 8px;
+    padding: 9px 15px;
+    width: 112px;
+    height: 44px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
